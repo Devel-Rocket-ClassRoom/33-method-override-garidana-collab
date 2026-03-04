@@ -25,7 +25,7 @@ class Instrument
 
 class Piano : Instrument
 {
-    public Piano(string name) : base("피아노")
+    public Piano(string name) : base("피아노")  // 현재의 생성자가 부모 클래스의 생성자를 불러온다
     {
         
     }
